@@ -1,6 +1,4 @@
 language: java
-jdk:
-- openjdk"1.8.0_251"
 install: mvn -install -DskipTest=true -Dmaven.javadoc.skip=true
 script: mvn test
 
