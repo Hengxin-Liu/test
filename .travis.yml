@@ -1,4 +1,4 @@
 language: java
-install: mvn -install -DskipTest=true -Dmaven.javadoc.skip=true
-script: mvn test
-
+Java:
+-'1.8.0'
+run: true
